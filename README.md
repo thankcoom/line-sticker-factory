@@ -1,47 +1,41 @@
-# LINE 貼圖製作技能包 🎨
+<div align="center">
 
-**沒有 IP，也能從零開始討論角色，再一步步做出自己的 LINE 貼圖。**
+<img src="docs/media/hero.svg" alt="Louis Agent Lab — 從想法、角色到自己的 LINE 貼圖" width="100%" />
 
-有角色就使用自己的原圖；沒有角色就先聊個性、外型與畫風，產生候選、修改並確認，再進入台詞、動作及貼圖製作。先完成首批 8 張，逐步擴充，不需要一開始就想好全部細節。
+# 讓 Agent 陪你，把想法變成自己的貼圖。
 
-👉 **[看看我們的 LINE 貼圖，找到喜歡的就帶回聊天裡！](https://store.line.me/stickershop/author/5913753/zh-Hant)**
+**沒有 IP 也沒關係。從第一個角色開始，一步一步做出你的 LINE 貼圖。**
 
-上面是作者公開商店入口。商店角色與商品圖片不包含在本套件，也不是可隨套件重製的素材。
+[開始安裝](INSTALL-PROMPT.md) · [下載 v1.1.0](https://github.com/thankcoom/line-sticker-factory/releases/download/v1.1.0/line-sticker-factory-v1.1.0.zip) · [加入 Discord](https://discord.gg/cQVP8aHECh) · [追蹤 Louis](https://www.threads.com/@mr.__.l)
 
-## 嗨，我是 Louis 👋
+`ChatGPT / Codex`　 `繁體中文`　 `MIT Open Source`　 `角色 → 貼圖 → 交付`
 
-2026 年 1 月，我做過一個「貼圖工廠」，想做的就是讓 AI Agent 幫忙把角色發想、貼圖製作到交付串起來。這個項目確實有帶來盈利；現在我把其中的製作流程與工具整理成技能包，分享給大家，讓你也能做出自己的角色和 LINE 貼圖。這是我的個人經驗，不代表每個人使用後都會有相同收益。
+</div>
 
-我是一個很喜歡讓 Agent 替我做事、替我探索賺錢機會的人。只要有機會交給 Agent，我就想試試看。如果你也在做有趣的項目，或有想一起研究的方向，很歡迎來找我分享！
+---
 
-- **[追蹤我的 Threads](https://www.threads.com/@mr.__.l)**：一起交流 Agent、實作與項目心得。
-- **[加入我的 Discord](https://discord.gg/cQVP8aHECh)**：群裡有討論與分享頻道，可以聊貼圖製作、分享作品，也歡迎帶著你的項目來交流。
-- **[逛逛我的 LINE 貼圖商店](https://store.line.me/stickershop/author/5913753/zh-Hant)**：喜歡的話，帶一套回去聊天，也支持一下我的創作！
+## 01 / 你有想法，Agent 陪你往下做
 
-## 目前在哪裡使用？
+不必先想好整套世界觀，也不必一口氣做完 40 張。
+先聊聊你想要的角色，選方向、看候選、不喜歡就改。確定「就是他」之後，再一起安排台詞、表情與動作，先完成第一批 **8 張**。
 
-這份技能包目前以 **ChatGPT／Codex 技能環境**為支援範圍，其他 AI 平台尚未提供相容性保證。完整安裝與本機加工需要能操作電腦工具的環境；一般 ChatGPT 網頁對話可以依當次能力協助討論與生圖，但不能保證直接完成本機安裝。
+| 🌱 還沒有 IP | 🎨 已經有角色 | ↗ 接著完成作品 |
+| :--- | :--- | :--- |
+| 從用途、個性、外型與畫風開始，逐輪討論角色。 | 使用自己的原圖，保留五官、比例與角色特徵。 | 規劃聊天情境、加工圖片、逐張驗收，整理交付。 |
 
-要讓 Agent 協助操作 LINE 後台，**電腦需先安裝 [Ego Lite](https://lite.ego.app/)**，完成設定後登入你自己的 LINE 帳號。如果只是先討論角色或規劃貼圖，可以先開始，再依部署手冊準備後續工具。
+**你的製作路線**
 
-## 能做什麼？
+`聊想法` → `選角色方向` → `看圖與修改` → `確認角色` → `規劃 8 張` → `加工與驗收`
 
-- **從零建立角色**：逐輪討論、提出方向、產生候選，讓你選擇或修改。
-- **沿用自己的 IP**：選擇角色原圖，記錄五官、比例、配色等重要特徵。
-- **規劃貼圖**：繁中台詞、表情動作、聊天用途與三種文字策略。
-- **加工與驗收**：靜態貼圖尺寸處理、透明背景檢查、逐張視覺確認。
-- **整理交付**：LINE 上傳包、總覽圖、可接續的作品備份。
-- **接續與上傳指引**：保存進度；具備工具且獲使用者授權時，協助操作 LINE 後台。
+完成後取得 **LINE 上傳包、全套總覽、可接續的作品備份**。需要代理操作後台時，再依授權接續上傳。另附表情貼與主題指引；隨附加工器目前只支援靜態貼圖。
 
-另外包含靜態表情貼與主題的製作指引；目前隨附 CLI 加工器只支援靜態貼圖。
+## 02 / 複製提示詞，讓 AI 帶你開始
 
-## 最快開始：把這段貼給 AI
-
-適用能讀取 GitHub 並操作本機的 Codex。以下連結固定在首版 `v1.0.0`，更新版本請先看發行說明。
+適用能讀取 GitHub 並操作本機的 Codex。以下連結固定在 `v1.1.0`，更新版本請先看發行說明。
 
 ```text
 請使用技能安裝器，從以下 GitHub 路徑安裝 LINE 貼圖製作技能：
-https://github.com/thankcoom/line-sticker-factory/tree/v1.0.0/line-sticker-factory
+https://github.com/thankcoom/line-sticker-factory/tree/v1.1.0/line-sticker-factory
 
 先讀取儲存庫的 README.md 與「部署與安裝.md」，確認目前環境能否操作本機。
 安裝技能及必要 Python 依賴；使用獨立環境，不覆寫既有同名技能或私人角色庫。
@@ -59,7 +53,24 @@ C. 接續之前的作品
 
 完整提示詞：[安裝與開始使用](INSTALL-PROMPT.md)。安裝與登入可能需要你操作提示視窗；貼上提示詞不保證所有步驟都能無人值守。
 
-## 要先準備哪些東西？
+## 03 / 嗨，我是 Louis。喜歡讓 Agent 幫我把事情做出來。
+
+2026 年 1 月，我做了一個「貼圖工廠」。當時就想試試看：能不能讓 AI Agent 幫忙，把角色發想、貼圖製作到交付串起來？
+
+這個項目確實有帶來盈利。現在，我把其中的流程與工具整理成這份開源技能包，分享給想做自己角色與 LINE 貼圖的人。這是我的個人經驗，不代表使用後就會有相同收益。
+
+我很喜歡讓 Agent 替我做事，也喜歡探索它能不能替我賺錢。有些想法不試不知道，所以我會持續做、持續分享。如果你手上也有有趣的項目，**很歡迎帶來跟我聊！**
+
+| 跟上我的實作 | 一起交流項目 | 支持我的創作 |
+| :--- | :--- | :--- |
+| **[Threads ↗](https://www.threads.com/@mr.__.l)** | **[Discord ↗](https://discord.gg/cQVP8aHECh)** | **[LINE 貼圖商店 ↗](https://store.line.me/stickershop/author/5913753/zh-Hant)** |
+| Agent、實作過程與項目心得。 | 群內有討論與分享頻道，歡迎聊作品、工具與新點子。 | 找到喜歡的貼圖，就帶回日常聊天裡。 |
+
+商店連結是作品展示入口；商店角色與商品圖片不包含在套件，也不因工具開源而授權重製。
+
+## 04 / 使用前，準備好這幾件事
+
+目前支援範圍是 **ChatGPT／Codex 技能環境**，其他 AI 平台尚未提供相容性保證。
 
 | 你想做的事 | 需要準備 |
 |---|---|
@@ -73,25 +84,29 @@ C. 接續之前的作品
 
 本套件不附角色素材、帳號、字型或生圖額度，不承諾 LINE 審核通過。
 
-## 下載與手動安裝
+## 05 / 文件與下載
 
-- [下載 v1.0.0 完整分享 ZIP](https://github.com/thankcoom/line-sticker-factory/releases/download/v1.0.0/line-sticker-factory-v1.0.0.zip)
-- [查看版本與更新](https://github.com/thankcoom/line-sticker-factory/releases)
+- [下載 v1.1.0 完整分享 ZIP](https://github.com/thankcoom/line-sticker-factory/releases/download/v1.1.0/line-sticker-factory-v1.1.0.zip)
+- [查看版本與更新](https://github.com/thankcoom/line-sticker-factory/releases) · [更新紀錄](CHANGELOG.md)
 - [部署與安裝手冊](部署與安裝.md)：Mac／Windows 步驟、Ego Lite 設定與部署檢查。
 - [完整調用手冊](調用手冊.md)：新角色、既有角色、修改、接續與上傳提示詞。
 
 解壓縮後，`line-sticker-factory/` 是技能資料夾，直接包含 `SKILL.md`；`examples/production-plan-8.json` 是八張劇本範例。不要把整個儲存庫當成單一技能安裝。實際安裝位置依當前宿主與安裝器決定；手動安裝位置見部署手冊。
 
-## 已驗證與限制
+## 驗證與目前的界限
 
 已完成 macOS 獨立環境的八張範例建立、匯入、加工、預覽，以及未驗收／含字來源改字的拒絕檢查。新人引導另做文件情境驗證。
 
 Windows 實機、新使用者介面的技能發現與互動按鈕、真實生圖、Ego 登入與 LINE 上傳尚未端到端驗證。請先跑部署檢查，再製作正式作品。詳見 [驗證報告](驗證報告.md)。
 
-## 隱私與授權
+## 隱私與開源授權
 
 發布內容採白名單整理，角色庫為空，不含私人角色原圖、作品備份、帳號憑證或瀏覽器資料。作者明確授權公開的 Louis 介紹、項目經歷、Threads、Discord 與 LINE 商店連結屬公開介紹內容；私人角色素材與登入資料仍不包含在內。詳見 [隱私與分享檢查](隱私與分享檢查.md)。
 
 工具與文件採 [MIT License](LICENSE)。第三方服務、字型與使用者角色素材各依其原有權利及條款；本專案不代表 LINE 官方。
+
+---
+
+**一起把下一個想法做出來。**
 
 喜歡這個工具，可以給儲存庫一顆 Star、[追蹤 Louis 的 Threads](https://www.threads.com/@mr.__.l)，或[加入 Discord](https://discord.gg/cQVP8aHECh)一起交流。也歡迎[逛逛我的 LINE 貼圖商店](https://store.line.me/stickershop/author/5913753/zh-Hant)支持創作。

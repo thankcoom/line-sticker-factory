@@ -1,23 +1,24 @@
 {
   "date": "2026-11-16",
-  "version": "v1.0.0",
-  "source_files_scanned": 35,
+  "version": "v1.1.0",
+  "source_files_scanned": 37,
   "findings": [],
   "all_files_text": true,
   "private_character_assets_included": false,
   "character_catalog_empty": true,
   "processor_files_unchanged": 10,
   "relative_document_links_valid": true,
-  "authorized_public_identity": "GitHub owner thankcoom; Louis author introduction and January 2026 project experience as supplied by the author; public Threads, Discord and LINE storefront links.",
+  "authorized_public_identity": "User-authorized Louis introduction, project experience, GitHub owner, Threads, Discord and LINE store links; original text/geometric SVG banner.",
   "public_urls": [
+    "http://www.w3.org/2000/svg\"",
     "https://creator.line.me/",
     "https://creator.line.me/zh-hant/guideline/emoji/detail/",
     "https://creator.line.me/zh-hant/guideline/sticker/",
     "https://creator.line.me/zh-hant/guideline/theme/detail/",
     "https://discord.gg/cQVP8aHECh",
     "https://github.com/thankcoom/line-sticker-factory/releases",
-    "https://github.com/thankcoom/line-sticker-factory/releases/download/v1.0.0/line-sticker-factory-v1.0.0.zip",
-    "https://github.com/thankcoom/line-sticker-factory/tree/v1.0.0/line-sticker-factory",
+    "https://github.com/thankcoom/line-sticker-factory/releases/download/v1.1.0/line-sticker-factory-v1.1.0.zip",
+    "https://github.com/thankcoom/line-sticker-factory/tree/v1.1.0/line-sticker-factory",
     "https://learn.chatgpt.com/docs/build-skills",
     "https://lite.ego.app/",
     "https://store.line.me/stickershop/author/5913753/zh-Hant",
@@ -26,6 +27,5 @@
   "limitations": [
     "Pattern-based detection does not guarantee detection of every arbitrary secret format.",
     "See runtime-verification.json and verification report for untested platforms and end-to-end steps."
-  ],
-  "scope": "Current main-branch files; v1.0.0 release retains its original audit and archive."
+  ]
 }
