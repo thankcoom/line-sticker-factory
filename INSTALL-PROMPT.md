@@ -3,13 +3,13 @@
 適用具備本機工具的 Codex。一般 ChatGPT 對話可依文件協助討論，但不保證能安裝或操作本機。
 
 ```text
-請幫我安裝 LINE 貼圖製作技能 v1.1.0：
-https://github.com/thankcoom/line-sticker-factory/tree/v1.1.0/line-sticker-factory
+請幫我安裝 LINE 貼圖製作技能 v1.2.0：
+https://github.com/thankcoom/line-sticker-factory/tree/v1.2.0/line-sticker-factory
 
 1. 閱讀儲存庫 README.md、「部署與安裝.md」及技能 SKILL.md，確認當前工具能力。
 2. 優先用當前環境的 skill-installer 從上述路徑安裝；安裝器不可用時依部署文件手動安裝。不要覆寫既有同名技能或角色庫。
 3. 在獨立 Python 環境安裝技能的 requirements.txt。記錄技能與 Python 的實際絕對路徑，後續都使用同一環境。
-4. 從同一 v1.1.0 版本取得 examples/production-plan-8.json。它在儲存庫根目錄 examples，不在技能子資料夾；只安裝技能時要另外取得範例。
+4. 從同一 v1.2.0 版本取得 examples/production-plan-8.json。它在儲存庫根目錄 examples，不在技能子資料夾；只安裝技能時要另外取得範例。
 5. 在全新作品目錄執行 init、plan、status，確認八張劇本能保存再讀回；不要把測試當作真實作品完成。
 6. 驗證目前是否有生圖工具、能否取得原圖、是否能加工。只有要操作 LINE 後台時，才引導我安裝 Ego Lite、完成首次設定及唯讀連線測試；由我自行登入帳號。
 7. 回報已通過、未測及阻塞的項目。沒有權限或工具就說明接續方式，不能假稱成功；不向我索取密碼、cookie 或 token，不自動改用付費 API。
