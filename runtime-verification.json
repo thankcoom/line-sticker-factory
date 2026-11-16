@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-16",
+  "platform": "macOS arm64",
+  "python": "Python 3.10.5",
+  "dependencies": {
+    "Pillow": "12.3.0",
+    "fonttools": "4.63.0"
+  },
+  "checks": {
+    "fresh_pinned_dependencies": true,
+    "zip_extract_outside_repo": true,
+    "init_plan_status_eight_slots": true,
+    "import_render_eight_synthetic_images": true,
+    "preview_decodable": true,
+    "build_without_review_rejected": true,
+    "embedded_caption_direct_edit_rejected": true
+  },
+  "limits": [
+    "Synthetic geometry used only for runtime test; no visual acceptance or real sticker deliverable claimed.",
+    "No Windows runtime, actual ChatGPT option widgets, new GUI skill discovery, generation, Ego login, LINE upload or publishing tested.",
+    "No application source code modified."
+  ]
+}

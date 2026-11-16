@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "brief": {
+    "name": "我的第一套貼圖",
+    "count": 8,
+    "language": "zh-Hant",
+    "textStrategy": "integrated"
+  },
+  "slots": [
+    {
+      "ordinal": 1,
+      "caption": "你好",
+      "action": "揮手問候，字沿手勢排列",
+      "useCase": "開場問候"
+    },
+    {
+      "ordinal": 2,
+      "caption": "謝謝你",
+      "action": "捧花鞠躬，字融入花束",
+      "useCase": "表達感謝"
+    },
+    {
+      "ordinal": 3,
+      "caption": "收到",
+      "action": "舉手確認，字融入提示牌",
+      "useCase": "確認訊息"
+    },
+    {
+      "ordinal": 4,
+      "caption": "辛苦了",
+      "action": "遞上飲料，字沿杯子蒸氣排列",
+      "useCase": "慰勞對方"
+    },
+    {
+      "ordinal": 5,
+      "caption": "早安",
+      "action": "伸懶腰，字融入太陽",
+      "useCase": "早晨問候"
+    },
+    {
+      "ordinal": 6,
+      "caption": "晚安",
+      "action": "抱枕準備睡覺，字融入月亮",
+      "useCase": "結束聊天"
+    },
+    {
+      "ordinal": 7,
+      "caption": "加油",
+      "action": "握拳打氣，字融入動感線",
+      "useCase": "鼓勵對方"
+    },
+    {
+      "ordinal": 8,
+      "caption": "沒問題",
+      "action": "比出同意手勢，字融入彩帶",
+      "useCase": "答應請求"
+    }
+  ]
+}

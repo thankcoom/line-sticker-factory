@@ -1,0 +1,4 @@
+interface:
+  display_name: "LINE 貼圖製作總監"
+  short_description: "製作與驗收 LINE 靜態貼圖、表情貼及角色主題，交付上傳包、總覽與可還原備份"
+  default_prompt: "用 $line-sticker-factory 依我的角色與用途製作 LINE 靜態貼圖、表情貼或主題，依產品規格驗收並交付上傳包、總覽與備份。"
